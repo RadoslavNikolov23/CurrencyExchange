@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<ExchangeRate>  
+
+<h2>Exchange Rates</h2>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Currency</th>
+                <th>Code</th>
+                <th>ForOne</th>
+                <th>Value</th>
+                <th>Curs</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rate in Model)
+            {
+                <tr>
+                    <td>@rate.Currency</td>
+                    <td>@rate.Code</td>
+                    <td>@rate.ForOne</td>
+                    <td>@rate.Value</td>
+                    <td>@rate.Curs</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No exchange rates available.</p>
+
+}
