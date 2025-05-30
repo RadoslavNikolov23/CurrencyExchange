@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Applications - Projects\\CurrencyExchangeRate\\",
+  "WorkspaceRootPath": "C:\\Applications - Projects\\CurrencyExchange\\CurrencyExchangeRate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CB7B953-BA8A-4C13-93AA-4283183EBC75}|CurrencyExchangeRate.csproj|c:\\applications - projects\\currencyexchangerate\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1CB7B953-BA8A-4C13-93AA-4283183EBC75}|CurrencyExchangeRate.csproj|c:\\applications - projects\\currencyexchange\\currencyexchangerate\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CB7B953-BA8A-4C13-93AA-4283183EBC75}|CurrencyExchangeRate.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CB7B953-BA8A-4C13-93AA-4283183EBC75}|CurrencyExchangeRate.csproj|c:\\applications - projects\\currencyexchange\\currencyexchangerate\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CB7B953-BA8A-4C13-93AA-4283183EBC75}|CurrencyExchangeRate.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -23,14 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Applications - Projects\\CurrencyExchangeRate\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Applications - Projects\\CurrencyExchangeRate\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKoBAAARAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Applications - Projects\\CurrencyExchange\\CurrencyExchangeRate\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Applications - Projects\\CurrencyExchange\\CurrencyExchangeRate\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-27T20:41:52.18Z",
+              "WhenOpened": "2025-05-30T12:32:55.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Applications - Projects\\CurrencyExchange\\CurrencyExchangeRate\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Applications - Projects\\CurrencyExchange\\CurrencyExchangeRate\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T12:31:03.117Z",
               "EditorCaption": ""
             }
           ]
