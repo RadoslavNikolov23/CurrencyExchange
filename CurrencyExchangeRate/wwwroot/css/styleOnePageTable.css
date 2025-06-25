@@ -1,4 +1,49 @@
-﻿body {
+﻿/* Navbar Styles */
+.navbar {
+    background-color: #0a4678;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: palegoldenrod;
+    border-radius: 4px;
+}
+
+.nav-icon {
+    color: white;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.nav-icon:hover {
+    color: #ffcc00;
+}
+
+body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     margin: 0;
@@ -15,7 +60,8 @@
 }
 
 table {
-    width: 100%;
+    width: 70%;
+    margin: 20px auto;
     border-collapse: collapse;
     border-radius: 8px;
     overflow: hidden;
@@ -28,7 +74,7 @@ th, td {
 }
 
 th {
-    background-color: #4CAF50;
+    background-color: #0a598b;
     color: white;
     font-weight: bold;
 }
@@ -49,7 +95,7 @@ tr.selected {
 
 /* Hover effect for rows */
 tr:hover {
-    background-color: #ddd;
+    background-color: palegoldenrod;
     transform: scale(1.02);
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
