@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{1CB7B953-BA8A-4C13-93AA-4283183EBC75}|CurrencyExchangeRate.csproj|c:\\applications - projects\\currencyexchange\\currencyexchangerate\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CB7B953-BA8A-4C13-93AA-4283183EBC75}|CurrencyExchangeRate.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CB7B953-BA8A-4C13-93AA-4283183EBC75}|CurrencyExchangeRate.csproj|c:\\applications - projects\\currencyexchange\\currencyexchangerate\\wwwroot\\css\\styleonepagetable.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1CB7B953-BA8A-4C13-93AA-4283183EBC75}|CurrencyExchangeRate.csproj|solutionrelative:wwwroot\\css\\styleonepagetable.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,9 +36,22 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Applications - Projects\\CurrencyExchange\\CurrencyExchangeRate\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T12:32:55.53Z",
+              "WhenOpened": "2025-06-25T15:25:35.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "styleOnePageTable.css",
+              "DocumentMoniker": "C:\\Applications - Projects\\CurrencyExchange\\CurrencyExchangeRate\\wwwroot\\css\\styleOnePageTable.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\styleOnePageTable.css",
+              "ToolTip": "C:\\Applications - Projects\\CurrencyExchange\\CurrencyExchangeRate\\wwwroot\\css\\styleOnePageTable.css",
+              "RelativeToolTip": "wwwroot\\css\\styleOnePageTable.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-25T15:13:21.335Z",
               "EditorCaption": ""
             },
             {
@@ -45,7 +62,7 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Applications - Projects\\CurrencyExchange\\CurrencyExchangeRate\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-30T12:31:03.117Z",
               "EditorCaption": ""

@@ -4,38 +4,64 @@
 
 @model List<ExchangeRate>
 
-<h1 style="text-align: center">Exchange Rates for @DateTime.Now.Day/@DateTime.Now.Month/@DateTime.Now.Year</h1>
-
-@if (Model.Any())
-{
-    <div class="table-responsive">
-        <table class="table" >
-            <thead>
-                <tr>
-                    <th>Currency</th>
-                    <th>Code</th>
-                    <th>ForOne</th>
-                    <th>Value</th>
-                    <th>Curs</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var rate in Model)
-                {
-                    <tr>
-                        <td>@rate.Currency</td>
-                        <td>@rate.Code</td>
-                        <td>@rate.ForOne</td>
-                        <td>@rate.Value</td>
-                        <td>@rate.Curs</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+<section id="exchange-rate">
+    <div class="about-box">
+        <h1>Exchange Rates for @DateTime.Now.Day/@DateTime.Now.Month/@DateTime.Now.Year for Bulgaria.</h1>
     </div>
-}
-else
-{
-    <p>No exchange rates available.</p>
 
-}
+    @if (Model.Any())
+    {
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Currency</th>
+                        <th>Code</th>
+                        <th>ForOne</th>
+                        <th>Value</th>
+                        <th>Curs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var rate in Model)
+                    {
+                        <tr>
+                            <td>@rate.Currency</td>
+                            <td>@rate.Code</td>
+                            <td>@rate.ForOne</td>
+                            <td>@rate.Value</td>
+                            <td>@rate.Curs</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <p>No exchange rates available.</p>
+
+    }
+</section>
+
+<section id="about-us" class="about-section">
+    <div class="about-box">
+        <h2>About This App</h2>
+        <p>
+            This is a one-page educational web application that displays the current daily exchange rates
+            for various currencies. The app uses web scraping to fetch official exchange rate data from
+            the National Bank of Bulgaria. It is developed solely for learning purposes and not intended for commercial use.
+        </p>
+    </div>
+</section>
+
+<section id="privacy" class="about-section">
+    <div class="about-box">
+        <h2>Privacy</h2>
+        <p>
+            This application does not collect, store, or share any personal data from users. It operates solely for educational purposes, providing publicly available exchange rate data through web scraping from the National Bank.
+            No user accounts, cookies, or tracking mechanisms are used.
+            By using this app, you acknowledge that it is a non-commercial educational tool, and any information displayed is for informational purposes only.
+        </p>
+    </div>
+</section>
