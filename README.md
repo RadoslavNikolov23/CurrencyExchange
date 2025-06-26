@@ -73,7 +73,6 @@ This application does **not** collect, store, or share any user data. It is buil
    ```bash
    http://localhost:{localPort}
 
-
  ### 📘 License
  
 This project is licensed under the MIT License.
